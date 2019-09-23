@@ -14,14 +14,6 @@ import { InMemoryDataService } from './in-memory-data.service';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HeroesComponent,
-    HeroDetailComponent,
-    MessagesComponent,
-    DashboardComponent,
-    HeroSearchComponent
-  ],
   imports: [
     BrowserModule,
     FormsModule,
@@ -33,6 +25,14 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
           dataEncapsulation: false
         }
     )
+  ],
+  declarations: [
+    AppComponent,
+    HeroesComponent,
+    HeroDetailComponent,
+    MessagesComponent,
+    DashboardComponent,
+    HeroSearchComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
